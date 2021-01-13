@@ -16,8 +16,7 @@ function listAllBlogPost() {
                                             WHERE a.id = b.blog_post_id     AND 
                                             $categoryQuery 
                                             a.$searchDescriptorColumn LIKE '%$searchQuery%'";                                                
-        // LIKE '%$searchQuery%' позволява да намери поста при въвеждане само на част от името му       
-        // $requestQuery           = "SELECT * FROM tb_blog_post WHERE $searchDescriptorColumn LIKE '%$searchQuery%'";
+
         return Database::query($requestQuery);
     }
     

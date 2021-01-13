@@ -10,10 +10,10 @@
                name         = "user_name">
         <?php displayFormError('signup', 'user_name'); ?>
         
-        <input placeholder  ="User first name" 
-               class        ="form-control"  
-               type         ="text"      
-               name         ="user_fname">
+        <input placeholder  = "User first name" 
+               class        = "form-control"  
+               type         = "text"      
+               name         = "user_fname">
         <?php displayFormError('signup', 'user_fname'); ?>
         
         <input placeholder  = "User last name" 

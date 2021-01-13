@@ -5,22 +5,22 @@ class Pagination {
     private static $pageLimit = 5;
     private static $totalCount = 0;
 
+    //за конкретен оffset(разделение при търсене)
     static function setPageLimit($pageLimit) {
         Pagination::$pageLimit = $pageLimit;
     }
-    //за конкретен оffset(разделение при търсене)
     
+    //за всички страници 
     static function getPageLimit() {
         return Pagination::$pageLimit;
     }
-    //за всички страници 
     
+    // изписва от кой номер пост започва да показва на съответната страница    
     static function getPageOffset() {
         
         return (Pagination::getPageIndex() - 1) * 
                (Pagination::getPageLimit());
     }
-    // изписва от кой номер пост започва да показва на съответната страница
     
     static function getPageIndex() {
         return isset($_GET['page_index']) ? $_GET['page_index'] : 1;

@@ -1,5 +1,4 @@
-<?php    // $group все едно page,funkcii se izpiswat s podchertawashto tire
-            //snake case ili slqto s cammel case
+<?php   
 
 function setFormError($group, $key, $message) {
     $_SESSION[$group][$key] = $message;

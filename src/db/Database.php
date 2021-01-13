@@ -34,12 +34,6 @@ class Database {
         return $databaseResult;
     }
 
-    /**
-     * This function returns last id
-     * @name getLastInsertedId
-     * @author Mihail Petrov
-     * @return type
-     */
     static function getLastInsertedId() { 
         return mysqli_insert_id(Database::dbConnect());
     }
@@ -76,10 +70,6 @@ class Database {
 //                            . "VALUES('$userName', '$userFname','$userLname','$userEmail','$userPass')";
 //
 //      return Database::query($createNewUserRequest);
-        
-        //написаното тук представлява горната заявка
-//substr_replace 1во стринга,който ще замества,2ро с какво се замества,,3то дълж.стринга
-//целта е да замести запетаята след последната колона/стойност със затваряща скоба )
         
         $queryBuilder = "INSERT INTO $tableName (";
         foreach ($columnCollection as $key => $value) {
