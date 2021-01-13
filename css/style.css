@@ -1,0 +1,148 @@
+
+.wrapper {
+    width  : 960px;
+    margin : auto;
+    margin-bottom:28px;    
+}
+
+mb-5 {
+    margin-bottom: 5px;
+}
+
+mb-15 {
+    margin-bottom: 15px;
+}
+
+.mb-25 {
+    margin-bottom: 25px;
+    padding-left: 0px;
+}
+
+.category-placeholder--category {
+    display:   inline-block;
+    font-size: 21px;
+    text-transform: uppercase;
+    padding: 6px;
+    font-weight: bold;
+    margin-right: 8px;
+    cursor: pointer;
+    color:#c75923;
+}
+
+#blog-post--content {
+    width  : 960px;
+    margin : auto;
+}
+
+.post {
+    margin-bottom: 26px;
+} 
+
+.post-title {
+    display: inline-block;
+    font-size: 21px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.post-content {
+    font-size: 18px;
+    border: solid #dedede 3px;
+}
+
+ .post-content:hover {
+     background: #1d1719;
+     color: #c3d8fa;
+ }
+
+.input {
+    display: block;
+    width: 100%;
+    margin-bottom: 10px;
+    padding: 5px;
+}
+
+.submit {
+    width: 100%;
+    background: #dedede;
+    text-transform: uppercase;
+    border: none;
+    font-weight: bold;
+    padding: 5px 0;   
+    margin-top: 10px;
+}
+
+#signup--wrapper {
+    margin: auto;
+    margin-top: 80px;
+    width:  250px;
+}
+
+.db-error {
+    font-weight: bold;
+    border: solid 2px #000;
+    background: #d91c5c;
+    text-transform: uppercase;
+    padding: 5px;
+}
+
+.form-error {
+    font-weight: bold;
+    color: #ff0000;
+}
+
+.list-item {
+    display: inline-block;
+    color: #fff;
+    margin-left: 9px
+}
+
+.list-item a {
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.logo{
+    display: inline-block;
+    margin-right: 0px;
+    color: #fff;
+}
+
+#cms-manager {
+    display: inline-block;
+}
+
+.btn {
+    background:  #2071c5;
+    display: inline-block;
+    color: #fff;
+    padding: 10px;
+    text-decoration: none;   
+}
+
+.pagination {
+    display: inline-block;
+    padding: 5px;
+    margin:  5px;
+    text-transform: lowercase;
+    background: #e9e9e9;
+    border: solid #1d1719 1px;
+    text-decoration: none;
+    color: #000;
+ }
+ 
+ .pagination:hover {
+     background: #1d1719;
+     color: #c3d8fa;
+ }
+ 
+  .search:hover {
+     background: #1d1719;
+     color: #c3d8fa;
+ }
+ 
+ .form-control {
+         margin-bottom: 10px;
+ }
